@@ -81,7 +81,7 @@ const memberList = [
 document.addEventListener("DOMContentLoaded", function () {
     displayMemberList();
     const setlistSelect = document.getElementById("setlist");
-
+    setlistArray.sort();
     setlistArray.forEach(setlistItem => {
         const option = document.createElement("option");
         option.value = setlistItem;
