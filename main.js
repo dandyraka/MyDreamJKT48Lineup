@@ -13,7 +13,9 @@ const setlistArray = [
     "Tunas di Balik Seragam",
     "Cara Meminum Ramune",
     "Ingin Bertemu",
-    "Banzai"
+    "Banzai",
+    "Romansa Sang Gadis",
+    "Himawari Gumi"
 ];
 
 const memberList = [
