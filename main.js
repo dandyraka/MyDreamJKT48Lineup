@@ -19,7 +19,6 @@ const setlistArray = [
 ];
 
 const memberList = [
-    "Adzana Shaliha",
     "Amanda Sukma",
     "Angelina Christy",
     "Aurellia",
