@@ -95,7 +95,7 @@ function displayMemberList() {
     memberList.forEach(member => {
         const memberButton = document.createElement("button");
         memberButton.innerText = member;
-        memberButton.className = "bg-red-500 text-white p-2 mb-2 mr-2 rounded-full mobile-btn-size";
+        memberButton.className = "bg-blue-500 text-white p-2 mb-2 mr-2 rounded-full mobile-btn-size";
         memberButton.onclick = function () {
             moveToSetlist(memberButton);
         };
@@ -194,7 +194,7 @@ function updateMemberListSectionVisibility() {
 function createMemberButton(memberName) {
     const memberButton = document.createElement("button");
     memberButton.innerText = memberName;
-    memberButton.className = "bg-red-500 text-white p-2 mb-2 mr-2 rounded-full mobile-btn-size";
+    memberButton.className = "bg-blue-500 text-white p-2 mb-2 mr-2 rounded-full mobile-btn-size";
     memberButton.onclick = function () {
         moveToSetlist(memberButton.innerText);
     };
